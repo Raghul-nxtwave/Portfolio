@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="head-name">
+                <h1 class="logo-name">Raghul.R</h1>
+            </div>
+            <div class="menu-bar" onclick="open_menu()">
+                <i class="fas fa-lg fa-bars menu-btn"></i>
+            </div>
+        </div>
+        <div class="nav-list-div">
+            <ul class="nav-list">
+                <!-- <li class="nav-close-li"><button onclick="open_menu()" class="nav-close-btn">X</button></li> -->
+                <li>
+                    <a href="#profile" onclick="open_menu()" class="home-Btn">Home</a>
+                </li>
+                <li>
+                    <a href="#about-me" onclick="open_menu()" class="about-Btn">About</a>
+                </li>
+                <li>
+                    <a href="#services" onclick="open_menu()" class="service-Btn">Service</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="open_menu()" class="project-Btn">Project</a>
+                </li>
+                <li>
+                    <a href="#profile" onclick="open_menu()" class="blog-Btn">Blog</a>
+                </li>
+                <li class="contact-me-li">
+                    <a href="#contact-me" onclick="open_menu()" class="contact-me" id="contact-me-btn">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+
+        <div class="profile" id="profile">
+            <div class="section-heading profile-heading">
+                <p class="heading"></p>
+            </div>
+            <div class="card d-flex flex-row" id="card">
+                <div class="card-left">
+                    <div class="card-left-top">
+                        <img src="https://i.ibb.co/0j6w33Tb/raghul-port.jpg" alt="Profile Image" class="d-block d-sm-none profile-testimonial-header-img">
+                        <p class="header-card name">I'm Raghul</p>
+                        <p class="header-card designation">Full Stack Web Developer </p>
+                    </div>
+                    <div class="card-left-bottom">
+                        <button class="see-my-works card-btn">
+                            <a href="#projects" id="see-my-works">See My Works</a>
+                        </button>
+                        <button class="hire-me card-btn">
+                            <a href="#contact-me" id="hire-me">Hire Me</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-right d-none d-sm-block">
+                    <img src="https://i.ibb.co/0j6w33Tb/raghul-port.jpg" class="yellow-profile-pic" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section about-me" id="about-me">
+            <div class="section-heading">
+                <p class="heading">About Me</p>
+            </div>
+            <p class="about">
+                I'm an aspiring full-stack developer passionate about building scalable and user-friendly web applications. I focus on clean code, efficient solutions, and seamless digital experiences. Currently, I'm getting trained at NxtWave to enhance my skills and stay ahead in tech. 🚀
+            </p>
+            <p class="education">Education</p>
+            <p class="edu1"><i class="fa-solid fa-graduation-cap footer-social-icons-twitter pr-2"></i>Panimalar Engineering College, Poonamallee</p>
+            <p class="edu2"><i class="fa-solid fa-code-branch footer-social-icons-twitter pr-3"></i>B.Tech in Information Technology</p>
+            <p class="edu"><i class="fa-regular fa-clock footer-social-icons-twitter pr-3"></i>Oct 2022 - Jun 2026</p>
+            <p class="education">My Skills</p>
+        </div>
+
+        <div class="section about-me" id="my-skills">
+            <div class="my-skills">
+                <div class="skill html"><i class="fab fa-html5"></i> Html</div>
+                <div class="skill css"><i class="fab fa-css3-alt"></i> Css</div>
+                <div class="skill sql"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill flask"><i class="fas fa-pepper-hot"></i> Flask</div>
+                <div class="skill php"><i class="fab fa-php"></i> Php</div>
+                <div class="skill git"><i class="fab fa-git"></i> Git</div>
+                <div class="skill res-design"><i class="fas fa-pen-nib"></i> Responsive Design</div>
+                <div class="skill js"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill github"><i class="fab fa-github"></i> Github</div>
+                <div class="skill react"><i class="fab fa-react"></i> React (Basics)</div>
+            </div>
+        </div>
+
+        <div class="section services" id="services">
+            <div class="section-heading">
+                <p class="heading">Trained in</p>
+            </div>
+            <div class="service-content">
+                <div class="service-div frontend-service">
+                    <div class="topic">
+                        <i class="fa fa-layer-group"></i> Full Stack development
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <li><a href="https://i.ibb.co/cKKSRV2b/responsive-certificate.png" target="_blank" class="projects-title">Responsive design</a></li>
+                            <li><a href="https://i.ibb.co/5gTMQVx7/static-certificate.png" target="_blank" class="projects-title">Static design</a></li>
+                            <li><a href="https://i.ibb.co/7d52xXhG/sql.jpg" target="_blank" class="projects-title">Backend Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-div backend-service">
+                    <div class="topic">
+                        <i class="fa fa-code-branch"></i> Logical Programming
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <li><a href="https://i.ibb.co/C5M3ZCTQ/python-cert.png" target="_blank" class="projects-title">Python</a></li>
+                            <li><a href="https://i.ibb.co/YFpw7Xdq/raghul.jpg" target="_blank" class="projects-title">Data Science</a></li>
+                            <li>Logical Reasoning</li>
+                            <li>Code Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-div database-management">
+                    <div class="topic">
+                        <i class="fa fa-database"></i> Database Management
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <li>Database Design</li>
+                            <li>Data Modeling</li>
+                            <li>ACID Transactions</li>
+                            <li>Stored Procedures & Triggers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="heading">Projects</p>
+            </div>
+            <div class="project-content">
+                <div class="service-div frontend-service">
+                    <div class="topic p-3">
+                        Responsive & Mobile-Friendly-Design
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <!-- <li>Desing Under Progress 🛠️</li> -->
+                            <li><a href="https://raghulfoodmunch.ccbp.tech/" target="_blank" class="projects-title">FoodMunch</a></li>
+                            <li><a href="https://raghulnxtalkweb.ccbp.tech/" target="_blank" class="projects-title">Nxt-Talks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-div backend-service">
+                    <div class="topic">
+                        Mini-Projects
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <li>️Student Information System</li>
+                            <li>Medical Prosthetic Hand</li>
+                            <li>CRUD Operations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-div database-management">
+                    <div class="topic">
+                        Internships
+                    </div>
+                    <div class="points-div">
+                        <ul class="points">
+                            <li><a href="https://i.ibb.co/rRpCLhNg/Web-Clone-Internship.jpg" target="_blank" class="projects-title">Web-Clone Internship at Nxtwave️</a></li>
+                            <li><a href="https://i.ibb.co/rRpCLhNg/Web-Clone-Internship.jpg" target="_blank" class="projects-title">Web-Cloning & Portfolio🛠 at Nxtwave</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-contact-me" id="contact-me">
+            <div class="contact-me-heading-div">
+                <p class="contact-me-heading">Let's Connect!!</p>
+            </div>
+            <div class="section contact-me-form-div">
+                <form class="contact-me-form" method="POST" action="https://formspree.io/f/mgvawvjw">
+                    <div class="name">
+                        <label for="contact-me-name">Your Name</label><br>
+                        <input type="text" id="contact-me-name" name="Name" class="contact-me-name" required />
+                    </div>
+                    <div class="email">
+                        <label for="contact-me-email">Email</label><br>
+                        <input type="text" id="contact-me-email" name="Email" class="contact-me-email" required />
+                    </div>
+                    <div class="description">
+                        <label for="description">Describe your idea</label><br>
+                        <input type="textarea" id="description" name="Body" class="contact-me-description" required />
+                    </div>
+                    <button type="submit" id="submit-contact-me" class="submit-contact-me mb-3">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--Reach-Us-section-->
+    <div>
+        <div class="container ReachUs-bg-container-section">
+            <div class="row">
+                <hr class="text-white" />
+                <div class="col-12 col-md-4 col-lg-4 mt-2">
+                    <h4 class="pt-3 ReachUs-section-headings">Reach Me</h4>
+                    <div class="pt-3">
+                        <a href="https://www.ccbp.in/contact-us" target="_blank" class="d-flex flex-row" style="text-decoration:none;">
+                            <i class="fas fa-envelope ReachUs-mail-iconss" style="color:#2196F3;"></i>
+                            <p class="ReachUs-mail-icon-content">raghulrengasamy05@gmail.com</p>
+
+                        </a>
+
+                        <a href="https://www.ccbp.in/contact-us" target="_blank" class="d-flex flex-row" style="text-decoration:none;">
+                            <i class="fa-solid fa-square-phone ReachUs-mail-iconss" style="color:#2196F3;"></i>
+                            <p class="ReachUs-mail-icon-content">+91 9344944089</p>
+
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mt-2">
+                    <h4 class="ReachUs-section-headings">Quick Links</h4>
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-6 pt-3"><a href="#profile" onclick="open_menu()" class="home-Btn ReachUs-QuickLink-contents">Home</a></div>
+                        <div class="col-6 col-md-6 pt-3"><a href="#about-me" onclick="open_menu()" class="about-Btn ReachUs-QuickLink-contents">About</a></div>
+                        <div class="col-6 col-md-6 pt-3"><a href="#my-skills" onclick="open_menu()" class="about-Btn ReachUs-QuickLink-contents">Skills</a></div>
+                        <div class="col-6 col-md-6 pt-3"><a href="https://i.ibb.co/0yWhVzPv/resumee.png" onclick="open_menu()" class="about-Btn ReachUs-QuickLink-contents">Resume</a></div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mt-2">
+                    <h4 class="ReachUs-section-headings">Currently exploring</h4>
+                    <div class="pt-3">
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/7dpxW1j6/java.jpg" />
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/sSx0Jf3/python.jpg" />
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/yF5q8Ryr/js.jpg" />
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/HTW1RXbw/sql.jpg" />
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/TMwXf8RV/react.jpg" />
+                        <img class="col-4 col-md-3 col-lg-3 ReachUs-payment-card-img m-1" src="https://i.ibb.co/mrZZJRdh/node.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Reach-Us-section-Over-->
+    <div>
+        <div class="container footer-background-container mb-3">
+            <div class="row">
+
+                <div class="col-12 col-md-12 footer-social-icons mt-4">
+                    <a href="https://www.facebook.com/share/1Y4gBocJ5c/" target="_blank"><i class="fab fa-facebook footer-social-icons-facebook"></i></a>
+                    <a href="https://www.instagram.com/rxhull__._" target="_blank"><i class="fab fa-instagram footer-social-icons-instagram"></i></a>
+                    <a href="https://x.com/RaghulRengasamy" target="_blank"><i class="fab fa-twitter footer-social-icons-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/rxhull" target="_blank"><i class="fab fa-linkedin footer-social-icons-LinkedIn"></i></a>
+                    <a href="https://github.com/Raghul-nxtwave" target="_blank"><i class="fa-brands fa-github footer-social-icons-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
